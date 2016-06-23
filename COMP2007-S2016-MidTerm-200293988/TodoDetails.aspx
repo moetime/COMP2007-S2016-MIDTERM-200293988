@@ -5,13 +5,13 @@
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
                 <h1>Todo List</h1>
-                <a href="TodoDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add A To Do Item</a>
+                <a href="TodoDetails.aspx" class="btn btn-success btn-sm">Add A To Do Item</a>
 
                 <asp:GridView runat="server" CssClass="table table-bordered table-striped table-hover"
                     ID="TodoGridView" AutoGenerateColumns="false" DataKeyNames="TodoID"
                     OnRowDeleting="TodoGridView_RowDeleting" AllowPaging="true" PageSize="3"
                     OnPageIndexChanging="TodoGridView_PageIndexChanging" AllowSorting="true"
-                    OnSorting="TodoGridView_Sorting" OnRowDataBound="TodoGridVie_RowDataBound" 
+                    OnSorting="TodoGridView_Sorting" OnRowDataBound="TodoGridView_RowDataBound" 
                     PagerStyle-CssClass="pagination-ys">
                     <Columns>
                         <asp:BoundField DataField="TodoName" HeaderText="Todo" Visible="true" SortExpression="TodoName" />
@@ -45,5 +45,7 @@
 
 
 
-</
+
 </asp:Content>
+
+
