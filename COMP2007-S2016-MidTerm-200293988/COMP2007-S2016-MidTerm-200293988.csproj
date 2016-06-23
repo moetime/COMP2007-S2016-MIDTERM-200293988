@@ -84,7 +84,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Gridview template item view1.aspx" />
     <Content Include="Models\TodoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>TodoModel.edmx</DependentUpon>
@@ -131,7 +130,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="TodoDetails.aspx" />
+    <Content Include="Tododetails.aspx" />
     <Content Include="TodoList.aspx" />
     <Content Include="User_Controls\Jumbotron.ascx" />
     <Content Include="User_Controls\Navbar.ascx" />
@@ -156,13 +155,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Gridview template item view1.aspx.cs">
-      <DependentUpon>Gridview template item view1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Gridview template item view1.aspx.designer.cs">
-      <DependentUpon>Gridview template item view1.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Models\Todo.cs">
       <DependentUpon>TodoModel.tt</DependentUpon>
     </Compile>
@@ -181,12 +173,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TodoModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="TodoDetails.aspx.cs">
-      <DependentUpon>TodoDetails.aspx</DependentUpon>
+    <Compile Include="Tododetails.aspx.cs">
+      <DependentUpon>Tododetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TodoDetails.aspx.designer.cs">
-      <DependentUpon>TodoDetails.aspx</DependentUpon>
+    <Compile Include="Tododetails.aspx.designer.cs">
+      <DependentUpon>Tododetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="TodoList.aspx.cs">
       <DependentUpon>TodoList.aspx</DependentUpon>

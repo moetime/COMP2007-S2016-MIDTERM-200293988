@@ -10,7 +10,16 @@
 namespace COMP2007_S2016_MidTerm_200293988 {
     
     
-    public partial class Gridview_template_item_view1 {
+    public partial class Tododetails {
+        
+        /// <summary>
+        /// TodoGridView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView TodoGridView;
         
         /// <summary>
         /// PageSizeDropDownList control.
@@ -20,14 +29,5 @@ namespace COMP2007_S2016_MidTerm_200293988 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList PageSizeDropDownList;
-        
-        /// <summary>
-        /// StudentsGridView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView StudentsGridView;
     }
 }
